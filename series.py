@@ -127,7 +127,87 @@ def transform_BSON_to_JSON(resultados):
             json.dump(lista, f, ensure_ascii=False, indent=2)
         print(f"Guardado: {nombre}.json")
         
+def mean_puntuacion():
+    total_puntuacion = 0
+    count = 0
+
+    for serie in coleccion.find({"puntuacion": {"$exists": True}}):
+        total_puntuacion += serie["puntuacion"]
+        count += 1
+
+    if count > 0:
+        promedio = total_puntuacion / count
+        print(f"\nPromedio de puntuación de todas las series: {promedio:.2f}")
+    else:
+        print("\nNo hay series con puntuación para calcular el promedio.")
+
+def create_new_collection():
+    coleccion2 = baseDatos["detalles_produccion"]
+
+    # Leear todos los títulos de la colección series
+    titulos_series = [serie["titulo"] for serie in coleccion.find()]
+
+    # Opciones aleatorias
+    paises = ["EE.UU.", "Corea del Sur", "España", "Reino Unido", "Canadá", "Japón"]
+    actores = [
+        "Actor A", "Actor B", "Actor C", "Actor D", "Actor E",
+        "Actor F", "Actor G", "Actor H", "Actor I", "Actor J"
+    ]
+
+    produccion = []
+
+    for titulo in titulos_series:
+        doc = {
+            "titulo": titulo,
+            "pais_origen": random.choice(paises),
+            "reparto_principal": random.sample(actores, 3),
+            "presupuesto_por_episodio": round(random.uniform(1.0, 10.0), 2)  # en millones
+        }
+        produccion.append(doc)
+
+    coleccion2.insert_many(produccion)
+    print(f"Se han insertado {len(produccion)} documentos en detalles_produccion")
+
+    return coleccion2
+
+# Consultar series que esten finalizadas, con más de 8 de puntacuíon y sean de EEUU.
+def consult_union(coleccion2):
+    # Hacemos un join entre series y detalles_produccion usando el campo titulo
+    pipeline = [
+        {
+            "$lookup": {
+                "from": "series",
+                "localField": "titulo",
+                "foreignField": "titulo",
+                "as": "info_serie"
+            }
+        },
+        { "$unwind": "$info_serie" },
+        { "$match": {
+            "info_serie.finalizada": True,
+            "info_serie.puntuacion": { "$gt": 8 },
+            "pais_origen": "EE.UU."
+        }}
+    ]
+
+    resultados = list(coleccion2.aggregate(pipeline))
+
+    print(f"Series finalizadas, puntuación >8 y país EE.UU.: {len(resultados)}")
+    for serie in resultados:
+        print({
+            "titulo": serie["titulo"],
+            "puntuacion": serie["info_serie"]["puntuacion"],
+            "finalizada": serie["info_serie"]["finalizada"],
+            "pais_origen": serie["pais_origen"],
+            "reparto_principal": serie["reparto_principal"]
+        })
+
+    return resultados
+
 #insert_data()
 resultados = consult_data()
-transform_BSON_to_JSON(resultados)
-read_consult(resultados)
+# transform_BSON_to_JSON(resultados)
+# read_consult(resultados)
+# mean_puntuacion()
+coleccion2 = create_new_collection()
+consult_union(coleccion2)
