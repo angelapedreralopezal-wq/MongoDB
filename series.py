@@ -109,6 +109,13 @@ def consult_data():
 
     return resultados
 
+def read_consult(resultados):
+    for nombre, lista in resultados.items():
+        print(f"\n--- {nombre.upper()} ---")
+        for serie in lista:
+            print(serie)
+    
+
 def transform_BSON_to_JSON(resultados):
     for nombre, lista in resultados.items():
         # Convertir ObjectId a string
@@ -123,3 +130,4 @@ def transform_BSON_to_JSON(resultados):
 #insert_data()
 resultados = consult_data()
 transform_BSON_to_JSON(resultados)
+read_consult(resultados)
