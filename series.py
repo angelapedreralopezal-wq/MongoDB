@@ -130,16 +130,18 @@ def transform_BSON_to_JSON(resultados):
         print(f"Guardado: {nombre}.json")
         
 def mean_puntuacion():
-    total_puntuacion = 0
-    count = 0
+    pipeline = [
+        { "$match": { "puntuacion": { "$exists": True } } },  # Solo series con puntuacion
+        { "$group": {
+            "_id": None,
+            "promedio": { "$avg": "$puntuacion" }
+        }}
+    ]
 
-    for serie in coleccion.find({"puntuacion": {"$exists": True}}):
-        total_puntuacion += serie["puntuacion"]
-        count += 1
+    resultado = list(coleccion.aggregate(pipeline))
 
-    if count > 0:
-        promedio = total_puntuacion / count
-        print(f"\nPromedio de puntuación de todas las series: {promedio:.2f}")
+    if resultado:
+        print(f"\nPromedio de puntuación de todas las series: {resultado[0]['promedio']:.2f}")
     else:
         print("\nNo hay series con puntuación para calcular el promedio.")
 
@@ -208,6 +210,6 @@ def consult_union(coleccion2):
 resultados = consult_data()
 # transform_BSON_to_JSON(resultados)
 # read_consult(resultados)
-# mean_puntuacion()
+mean_puntuacion()
 #create_new_collection()
 consult_union(coleccion2)
