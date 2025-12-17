@@ -2,4 +2,3 @@ venv_mongo/
 .env
 ejemplos/
 __pycache__/
-_pycache_/
