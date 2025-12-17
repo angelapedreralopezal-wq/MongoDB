@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "6942ce29cd17120e960b93af",
+    "titulo": "The Witcher 41",
+    "plataforma": "Prime Video",
+    "temporadas": 1,
+    "genero": [
+      "Sci-Fi",
+      "Thriller",
+      "Comedia"
+    ],
+    "puntuacion": 5.9,
+    "finalizada": false,
+    "año_estreno": 2022
+  },
+  {
+    "_id": "6942ce29cd17120e960b93b2",
+    "titulo": "The Mandalorian 44",
+    "plataforma": "Prime Video",
+    "temporadas": 9,
+    "genero": [
+      "Aventura",
+      "Comedia",
+      "Sci-Fi"
+    ],
+    "puntuacion": 8.9,
+    "finalizada": false,
+    "año_estreno": 2021
+  }
+]

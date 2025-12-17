@@ -1,0 +1,55 @@
+[
+  {
+    "_id": "6942ce29cd17120e960b93ba",
+    "titulo": "Serie Incompleta 2",
+    "plataforma": "Netflix",
+    "temporadas": 4,
+    "genero": [
+      "Aventura"
+    ],
+    "año_estreno": 2019
+  },
+  {
+    "_id": "6942ce29cd17120e960b93bb",
+    "titulo": "Serie Incompleta 3",
+    "plataforma": "Netflix",
+    "temporadas": 4,
+    "genero": [
+      "Fantasia",
+      "Crimen"
+    ],
+    "año_estreno": 2001
+  },
+  {
+    "_id": "6942ce29cd17120e960b93bc",
+    "titulo": "Serie Incompleta 4",
+    "plataforma": "Prime Video",
+    "temporadas": 3,
+    "genero": [
+      "Thriller"
+    ],
+    "año_estreno": 2007
+  },
+  {
+    "_id": "6942ce29cd17120e960b93be",
+    "titulo": "Serie Incompleta 6",
+    "plataforma": "HBO",
+    "temporadas": 5,
+    "genero": [
+      "Crimen",
+      "Comedia"
+    ],
+    "año_estreno": 2008
+  },
+  {
+    "_id": "6942ce29cd17120e960b93c2",
+    "titulo": "Serie Incompleta 10",
+    "plataforma": "Apple TV+",
+    "temporadas": 4,
+    "genero": [
+      "Aventura",
+      "Sci-Fi"
+    ],
+    "año_estreno": 2010
+  }
+]

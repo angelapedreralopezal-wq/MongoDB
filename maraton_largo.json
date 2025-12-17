@@ -1,0 +1,169 @@
+[
+  {
+    "_id": "6942ce29cd17120e960b938e",
+    "titulo": "Friends 8",
+    "plataforma": "HBO",
+    "temporadas": 5,
+    "genero": [
+      "Fantasia"
+    ],
+    "puntuacion": 8.7,
+    "finalizada": false,
+    "año_estreno": 2010
+  },
+  {
+    "_id": "6942ce29cd17120e960b9394",
+    "titulo": "Black Mirror 14",
+    "plataforma": "Apple TV+",
+    "temporadas": 10,
+    "genero": [
+      "Thriller",
+      "Crimen"
+    ],
+    "puntuacion": 9.5,
+    "finalizada": true,
+    "año_estreno": 2013
+  },
+  {
+    "_id": "6942ce29cd17120e960b9396",
+    "titulo": "Sherlock 16",
+    "plataforma": "Netflix",
+    "temporadas": 9,
+    "genero": [
+      "Drama",
+      "Crimen",
+      "Comedia"
+    ],
+    "puntuacion": 8.5,
+    "finalizada": true,
+    "año_estreno": 2018
+  },
+  {
+    "_id": "6942ce29cd17120e960b939c",
+    "titulo": "The Witcher 22",
+    "plataforma": "Disney+",
+    "temporadas": 5,
+    "genero": [
+      "Comedia",
+      "Aventura"
+    ],
+    "puntuacion": 9.1,
+    "finalizada": false,
+    "año_estreno": 2010
+  },
+  {
+    "_id": "6942ce29cd17120e960b939d",
+    "titulo": "Lost 23",
+    "plataforma": "HBO",
+    "temporadas": 9,
+    "genero": [
+      "Aventura"
+    ],
+    "puntuacion": 9.5,
+    "finalizada": true,
+    "año_estreno": 2023
+  },
+  {
+    "_id": "6942ce29cd17120e960b939f",
+    "titulo": "Breaking Bad 25",
+    "plataforma": "Netflix",
+    "temporadas": 10,
+    "genero": [
+      "Drama"
+    ],
+    "puntuacion": 9.5,
+    "finalizada": true,
+    "año_estreno": 2006
+  },
+  {
+    "_id": "6942ce29cd17120e960b93a2",
+    "titulo": "Friends 28",
+    "plataforma": "Disney+",
+    "temporadas": 10,
+    "genero": [
+      "Comedia"
+    ],
+    "puntuacion": 8.8,
+    "finalizada": true,
+    "año_estreno": 2013
+  },
+  {
+    "_id": "6942ce29cd17120e960b93a4",
+    "titulo": "Game of Thrones 30",
+    "plataforma": "HBO",
+    "temporadas": 9,
+    "genero": [
+      "Drama",
+      "Crimen"
+    ],
+    "puntuacion": 8.8,
+    "finalizada": true,
+    "año_estreno": 1998
+  },
+  {
+    "_id": "6942ce29cd17120e960b93a9",
+    "titulo": "Peaky Blinders 35",
+    "plataforma": "HBO",
+    "temporadas": 5,
+    "genero": [
+      "Crimen",
+      "Fantasia"
+    ],
+    "puntuacion": 9.0,
+    "finalizada": true,
+    "año_estreno": 2017
+  },
+  {
+    "_id": "6942ce29cd17120e960b93aa",
+    "titulo": "Sherlock 36",
+    "plataforma": "Apple TV+",
+    "temporadas": 9,
+    "genero": [
+      "Drama"
+    ],
+    "puntuacion": 9.1,
+    "finalizada": true,
+    "año_estreno": 2023
+  },
+  {
+    "_id": "6942ce29cd17120e960b93ab",
+    "titulo": "Lost 37",
+    "plataforma": "Prime Video",
+    "temporadas": 7,
+    "genero": [
+      "Sci-Fi",
+      "Crimen"
+    ],
+    "puntuacion": 9.7,
+    "finalizada": true,
+    "año_estreno": 1996
+  },
+  {
+    "_id": "6942ce29cd17120e960b93b2",
+    "titulo": "The Mandalorian 44",
+    "plataforma": "Prime Video",
+    "temporadas": 9,
+    "genero": [
+      "Aventura",
+      "Comedia",
+      "Sci-Fi"
+    ],
+    "puntuacion": 8.9,
+    "finalizada": false,
+    "año_estreno": 2021
+  },
+  {
+    "_id": "6942ce29cd17120e960b93b4",
+    "titulo": "House of Cards 46",
+    "plataforma": "Apple TV+",
+    "temporadas": 5,
+    "genero": [
+      "Comedia",
+      "Aventura",
+      "Fantasia"
+    ],
+    "puntuacion": 8.3,
+    "finalizada": true,
+    "año_estreno": 2008
+  }
+]

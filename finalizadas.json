@@ -1,0 +1,393 @@
+[
+  {
+    "_id": "6942ce29cd17120e960b9387",
+    "titulo": "The Office 1",
+    "plataforma": "Disney+",
+    "temporadas": 2,
+    "genero": [
+      "Crimen",
+      "Fantasia",
+      "Thriller"
+    ],
+    "puntuacion": 7.7,
+    "finalizada": true,
+    "año_estreno": 2018
+  },
+  {
+    "_id": "6942ce29cd17120e960b9389",
+    "titulo": "The Mandalorian 3",
+    "plataforma": "Disney+",
+    "temporadas": 3,
+    "genero": [
+      "Thriller",
+      "Comedia"
+    ],
+    "puntuacion": 5.9,
+    "finalizada": true,
+    "año_estreno": 2016
+  },
+  {
+    "_id": "6942ce29cd17120e960b938a",
+    "titulo": "Narcos 4",
+    "plataforma": "Prime Video",
+    "temporadas": 9,
+    "genero": [
+      "Crimen",
+      "Thriller",
+      "Drama"
+    ],
+    "puntuacion": 7.7,
+    "finalizada": true,
+    "año_estreno": 1997
+  },
+  {
+    "_id": "6942ce29cd17120e960b938c",
+    "titulo": "Dark 6",
+    "plataforma": "Apple TV+",
+    "temporadas": 4,
+    "genero": [
+      "Crimen",
+      "Aventura"
+    ],
+    "puntuacion": 7.9,
+    "finalizada": true,
+    "año_estreno": 1996
+  },
+  {
+    "_id": "6942ce29cd17120e960b938f",
+    "titulo": "Narcos 9",
+    "plataforma": "Disney+",
+    "temporadas": 2,
+    "genero": [
+      "Drama"
+    ],
+    "puntuacion": 9.9,
+    "finalizada": true,
+    "año_estreno": 2008
+  },
+  {
+    "_id": "6942ce29cd17120e960b9391",
+    "titulo": "Dark 11",
+    "plataforma": "Apple TV+",
+    "temporadas": 1,
+    "genero": [
+      "Drama",
+      "Thriller",
+      "Aventura"
+    ],
+    "puntuacion": 9.6,
+    "finalizada": true,
+    "año_estreno": 2018
+  },
+  {
+    "_id": "6942ce29cd17120e960b9394",
+    "titulo": "Black Mirror 14",
+    "plataforma": "Apple TV+",
+    "temporadas": 10,
+    "genero": [
+      "Thriller",
+      "Crimen"
+    ],
+    "puntuacion": 9.5,
+    "finalizada": true,
+    "año_estreno": 2013
+  },
+  {
+    "_id": "6942ce29cd17120e960b9395",
+    "titulo": "Game of Thrones 15",
+    "plataforma": "Prime Video",
+    "temporadas": 1,
+    "genero": [
+      "Sci-Fi"
+    ],
+    "puntuacion": 9.8,
+    "finalizada": true,
+    "año_estreno": 1995
+  },
+  {
+    "_id": "6942ce29cd17120e960b9396",
+    "titulo": "Sherlock 16",
+    "plataforma": "Netflix",
+    "temporadas": 9,
+    "genero": [
+      "Drama",
+      "Crimen",
+      "Comedia"
+    ],
+    "puntuacion": 8.5,
+    "finalizada": true,
+    "año_estreno": 2018
+  },
+  {
+    "_id": "6942ce29cd17120e960b9398",
+    "titulo": "Vikings 18",
+    "plataforma": "HBO",
+    "temporadas": 2,
+    "genero": [
+      "Crimen",
+      "Drama",
+      "Comedia"
+    ],
+    "puntuacion": 5.0,
+    "finalizada": true,
+    "año_estreno": 2013
+  },
+  {
+    "_id": "6942ce29cd17120e960b939b",
+    "titulo": "Stranger Things 21",
+    "plataforma": "Disney+",
+    "temporadas": 2,
+    "genero": [
+      "Drama",
+      "Comedia",
+      "Crimen"
+    ],
+    "puntuacion": 5.2,
+    "finalizada": true,
+    "año_estreno": 2012
+  },
+  {
+    "_id": "6942ce29cd17120e960b939d",
+    "titulo": "Lost 23",
+    "plataforma": "HBO",
+    "temporadas": 9,
+    "genero": [
+      "Aventura"
+    ],
+    "puntuacion": 9.5,
+    "finalizada": true,
+    "año_estreno": 2023
+  },
+  {
+    "_id": "6942ce29cd17120e960b939e",
+    "titulo": "Breaking Bad 24",
+    "plataforma": "Netflix",
+    "temporadas": 1,
+    "genero": [
+      "Fantasia"
+    ],
+    "puntuacion": 9.3,
+    "finalizada": true,
+    "año_estreno": 2022
+  },
+  {
+    "_id": "6942ce29cd17120e960b939f",
+    "titulo": "Breaking Bad 25",
+    "plataforma": "Netflix",
+    "temporadas": 10,
+    "genero": [
+      "Drama"
+    ],
+    "puntuacion": 9.5,
+    "finalizada": true,
+    "año_estreno": 2006
+  },
+  {
+    "_id": "6942ce29cd17120e960b93a0",
+    "titulo": "Breaking Bad 26",
+    "plataforma": "HBO",
+    "temporadas": 4,
+    "genero": [
+      "Crimen",
+      "Sci-Fi",
+      "Fantasia"
+    ],
+    "puntuacion": 5.4,
+    "finalizada": true,
+    "año_estreno": 2020
+  },
+  {
+    "_id": "6942ce29cd17120e960b93a1",
+    "titulo": "House of Cards 27",
+    "plataforma": "Netflix",
+    "temporadas": 8,
+    "genero": [
+      "Crimen",
+      "Drama",
+      "Thriller"
+    ],
+    "puntuacion": 7.8,
+    "finalizada": true,
+    "año_estreno": 2015
+  },
+  {
+    "_id": "6942ce29cd17120e960b93a2",
+    "titulo": "Friends 28",
+    "plataforma": "Disney+",
+    "temporadas": 10,
+    "genero": [
+      "Comedia"
+    ],
+    "puntuacion": 8.8,
+    "finalizada": true,
+    "año_estreno": 2013
+  },
+  {
+    "_id": "6942ce29cd17120e960b93a4",
+    "titulo": "Game of Thrones 30",
+    "plataforma": "HBO",
+    "temporadas": 9,
+    "genero": [
+      "Drama",
+      "Crimen"
+    ],
+    "puntuacion": 8.8,
+    "finalizada": true,
+    "año_estreno": 1998
+  },
+  {
+    "_id": "6942ce29cd17120e960b93a5",
+    "titulo": "Stranger Things 31",
+    "plataforma": "HBO",
+    "temporadas": 4,
+    "genero": [
+      "Drama",
+      "Fantasia",
+      "Comedia"
+    ],
+    "puntuacion": 5.8,
+    "finalizada": true,
+    "año_estreno": 2011
+  },
+  {
+    "_id": "6942ce29cd17120e960b93a6",
+    "titulo": "Narcos 32",
+    "plataforma": "Netflix",
+    "temporadas": 2,
+    "genero": [
+      "Sci-Fi"
+    ],
+    "puntuacion": 6.5,
+    "finalizada": true,
+    "año_estreno": 2001
+  },
+  {
+    "_id": "6942ce29cd17120e960b93a7",
+    "titulo": "Sherlock 33",
+    "plataforma": "Prime Video",
+    "temporadas": 1,
+    "genero": [
+      "Fantasia"
+    ],
+    "puntuacion": 5.9,
+    "finalizada": true,
+    "año_estreno": 2014
+  },
+  {
+    "_id": "6942ce29cd17120e960b93a8",
+    "titulo": "Narcos 34",
+    "plataforma": "Prime Video",
+    "temporadas": 2,
+    "genero": [
+      "Crimen"
+    ],
+    "puntuacion": 9.6,
+    "finalizada": true,
+    "año_estreno": 2008
+  },
+  {
+    "_id": "6942ce29cd17120e960b93a9",
+    "titulo": "Peaky Blinders 35",
+    "plataforma": "HBO",
+    "temporadas": 5,
+    "genero": [
+      "Crimen",
+      "Fantasia"
+    ],
+    "puntuacion": 9.0,
+    "finalizada": true,
+    "año_estreno": 2017
+  },
+  {
+    "_id": "6942ce29cd17120e960b93aa",
+    "titulo": "Sherlock 36",
+    "plataforma": "Apple TV+",
+    "temporadas": 9,
+    "genero": [
+      "Drama"
+    ],
+    "puntuacion": 9.1,
+    "finalizada": true,
+    "año_estreno": 2023
+  },
+  {
+    "_id": "6942ce29cd17120e960b93ab",
+    "titulo": "Lost 37",
+    "plataforma": "Prime Video",
+    "temporadas": 7,
+    "genero": [
+      "Sci-Fi",
+      "Crimen"
+    ],
+    "puntuacion": 9.7,
+    "finalizada": true,
+    "año_estreno": 1996
+  },
+  {
+    "_id": "6942ce29cd17120e960b93ac",
+    "titulo": "Dark 38",
+    "plataforma": "Prime Video",
+    "temporadas": 2,
+    "genero": [
+      "Drama",
+      "Sci-Fi",
+      "Comedia"
+    ],
+    "puntuacion": 7.7,
+    "finalizada": true,
+    "año_estreno": 2005
+  },
+  {
+    "_id": "6942ce29cd17120e960b93ae",
+    "titulo": "The Office 40",
+    "plataforma": "HBO",
+    "temporadas": 6,
+    "genero": [
+      "Comedia",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "puntuacion": 6.5,
+    "finalizada": true,
+    "año_estreno": 2000
+  },
+  {
+    "_id": "6942ce29cd17120e960b93b0",
+    "titulo": "Friends 42",
+    "plataforma": "Netflix",
+    "temporadas": 2,
+    "genero": [
+      "Fantasia"
+    ],
+    "puntuacion": 9.8,
+    "finalizada": true,
+    "año_estreno": 2022
+  },
+  {
+    "_id": "6942ce29cd17120e960b93b3",
+    "titulo": "Narcos 45",
+    "plataforma": "Disney+",
+    "temporadas": 4,
+    "genero": [
+      "Fantasia",
+      "Drama"
+    ],
+    "puntuacion": 8.6,
+    "finalizada": true,
+    "año_estreno": 2014
+  },
+  {
+    "_id": "6942ce29cd17120e960b93b4",
+    "titulo": "House of Cards 46",
+    "plataforma": "Apple TV+",
+    "temporadas": 5,
+    "genero": [
+      "Comedia",
+      "Aventura",
+      "Fantasia"
+    ],
+    "puntuacion": 8.3,
+    "finalizada": true,
+    "año_estreno": 2008
+  }
+]
