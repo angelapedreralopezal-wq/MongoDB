@@ -21,6 +21,8 @@ except Exception as e:
 # Creación de la base de datos y colección
 baseDatos = cliente["TV_StreamDB"]
 coleccion = baseDatos["series"]
+coleccion2 = baseDatos["detalles_produccion"]
+
 
 def insert_data():
     titulos = [
@@ -142,9 +144,7 @@ def mean_puntuacion():
         print("\nNo hay series con puntuación para calcular el promedio.")
 
 def create_new_collection():
-    coleccion2 = baseDatos["detalles_produccion"]
-
-    # Leear todos los títulos de la colección series
+    # Leer todos los títulos de la colección series
     titulos_series = [serie["titulo"] for serie in coleccion.find()]
 
     # Opciones aleatorias
@@ -209,5 +209,5 @@ resultados = consult_data()
 # transform_BSON_to_JSON(resultados)
 # read_consult(resultados)
 # mean_puntuacion()
-coleccion2 = create_new_collection()
+#create_new_collection()
 consult_union(coleccion2)
