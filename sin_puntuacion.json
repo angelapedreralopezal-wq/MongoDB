@@ -1,55 +1,77 @@
 [
   {
-    "_id": "6942ce29cd17120e960b93ba",
-    "titulo": "Serie Incompleta 2",
-    "plataforma": "Netflix",
-    "temporadas": 4,
+    "_id": "6942eaf01306679da7d569dc",
+    "titulo": "The Mandalorian 2",
+    "plataforma": "Disney+",
+    "temporadas": 2,
     "genero": [
       "Aventura"
     ],
-    "año_estreno": 2019
+    "año_estreno": 2002
   },
   {
-    "_id": "6942ce29cd17120e960b93bb",
-    "titulo": "Serie Incompleta 3",
+    "_id": "6942eaf01306679da7d569dd",
+    "titulo": "Dark 3",
+    "plataforma": "HBO",
+    "temporadas": 3,
+    "genero": [
+      "Comedia",
+      "Aventura"
+    ],
+    "año_estreno": 2009
+  },
+  {
+    "_id": "6942eaf01306679da7d569de",
+    "titulo": "Breaking Bad 4",
+    "plataforma": "Disney+",
+    "temporadas": 2,
+    "genero": [
+      "Fantasia"
+    ],
+    "año_estreno": 2004
+  },
+  {
+    "_id": "6942eaf01306679da7d569df",
+    "titulo": "The Office 5",
     "plataforma": "Netflix",
     "temporadas": 4,
     "genero": [
       "Fantasia",
       "Crimen"
     ],
-    "año_estreno": 2001
+    "año_estreno": 2016
   },
   {
-    "_id": "6942ce29cd17120e960b93bc",
-    "titulo": "Serie Incompleta 4",
-    "plataforma": "Prime Video",
-    "temporadas": 3,
+    "_id": "6942eaf01306679da7d569e1",
+    "titulo": "Stranger Things 7",
+    "plataforma": "Disney+",
+    "temporadas": 4,
     "genero": [
-      "Thriller"
+      "Comedia",
+      "Sci-Fi"
+    ],
+    "año_estreno": 2015
+  },
+  {
+    "_id": "6942eaf01306679da7d569e3",
+    "titulo": "Black Mirror 9",
+    "plataforma": "Prime Video",
+    "temporadas": 2,
+    "genero": [
+      "Aventura",
+      "Drama"
     ],
     "año_estreno": 2007
   },
   {
-    "_id": "6942ce29cd17120e960b93be",
-    "titulo": "Serie Incompleta 6",
-    "plataforma": "HBO",
+    "_id": "6942eaf01306679da7d569e4",
+    "titulo": "The Witcher 10",
+    "plataforma": "Netflix",
     "temporadas": 5,
     "genero": [
-      "Crimen",
-      "Comedia"
-    ],
-    "año_estreno": 2008
-  },
-  {
-    "_id": "6942ce29cd17120e960b93c2",
-    "titulo": "Serie Incompleta 10",
-    "plataforma": "Apple TV+",
-    "temporadas": 4,
-    "genero": [
       "Aventura",
-      "Sci-Fi"
+      "Drama"
     ],
-    "año_estreno": 2010
+    "año_estreno": 2004
   }
 ]

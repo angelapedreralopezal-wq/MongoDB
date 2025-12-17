@@ -1,0 +1,362 @@
+[
+  {
+    "titulo": "Peaky Blinders 1",
+    "presupuesto_por_episodio": 7.58,
+    "temporadas": 2,
+    "costo_total_millones": 121.28
+  },
+  {
+    "titulo": "The Witcher 2",
+    "presupuesto_por_episodio": 3.28,
+    "temporadas": 8,
+    "costo_total_millones": 209.92
+  },
+  {
+    "titulo": "Black Mirror 3",
+    "presupuesto_por_episodio": 6.29,
+    "temporadas": 8,
+    "costo_total_millones": 402.56
+  },
+  {
+    "titulo": "Black Mirror 4",
+    "presupuesto_por_episodio": 5.79,
+    "temporadas": 6,
+    "costo_total_millones": 277.92
+  },
+  {
+    "titulo": "Vikings 5",
+    "presupuesto_por_episodio": 9.98,
+    "temporadas": 6,
+    "costo_total_millones": 479.04
+  },
+  {
+    "titulo": "Game of Thrones 6",
+    "presupuesto_por_episodio": 5.57,
+    "temporadas": 7,
+    "costo_total_millones": 311.92
+  },
+  {
+    "titulo": "Peaky Blinders 7",
+    "presupuesto_por_episodio": 8.36,
+    "temporadas": 6,
+    "costo_total_millones": 401.28
+  },
+  {
+    "titulo": "Dark 8",
+    "presupuesto_por_episodio": 7.97,
+    "temporadas": 9,
+    "costo_total_millones": 573.84
+  },
+  {
+    "titulo": "Stranger Things 9",
+    "presupuesto_por_episodio": 2.87,
+    "temporadas": 8,
+    "costo_total_millones": 183.68
+  },
+  {
+    "titulo": "House of Cards 10",
+    "presupuesto_por_episodio": 2.34,
+    "temporadas": 8,
+    "costo_total_millones": 149.76
+  },
+  {
+    "titulo": "Peaky Blinders 11",
+    "presupuesto_por_episodio": 9.06,
+    "temporadas": 2,
+    "costo_total_millones": 144.96
+  },
+  {
+    "titulo": "Friends 12",
+    "presupuesto_por_episodio": 6.65,
+    "temporadas": 3,
+    "costo_total_millones": 159.60000000000002
+  },
+  {
+    "titulo": "Lost 13",
+    "presupuesto_por_episodio": 8.3,
+    "temporadas": 3,
+    "costo_total_millones": 199.20000000000002
+  },
+  {
+    "titulo": "The Office 14",
+    "presupuesto_por_episodio": 5.47,
+    "temporadas": 7,
+    "costo_total_millones": 306.32
+  },
+  {
+    "titulo": "Lost 15",
+    "presupuesto_por_episodio": 9.85,
+    "temporadas": 10,
+    "costo_total_millones": 788.0
+  },
+  {
+    "titulo": "The Witcher 16",
+    "presupuesto_por_episodio": 8.76,
+    "temporadas": 1,
+    "costo_total_millones": 70.08
+  },
+  {
+    "titulo": "The Mandalorian 17",
+    "presupuesto_por_episodio": 1.05,
+    "temporadas": 4,
+    "costo_total_millones": 33.6
+  },
+  {
+    "titulo": "Narcos 18",
+    "presupuesto_por_episodio": 8.7,
+    "temporadas": 4,
+    "costo_total_millones": 278.4
+  },
+  {
+    "titulo": "Lost 19",
+    "presupuesto_por_episodio": 3.98,
+    "temporadas": 1,
+    "costo_total_millones": 31.84
+  },
+  {
+    "titulo": "Dark 20",
+    "presupuesto_por_episodio": 3.3,
+    "temporadas": 5,
+    "costo_total_millones": 132.0
+  },
+  {
+    "titulo": "House of Cards 21",
+    "presupuesto_por_episodio": 8.43,
+    "temporadas": 7,
+    "costo_total_millones": 472.08
+  },
+  {
+    "titulo": "Dark 22",
+    "presupuesto_por_episodio": 9.36,
+    "temporadas": 4,
+    "costo_total_millones": 299.52
+  },
+  {
+    "titulo": "Dark 23",
+    "presupuesto_por_episodio": 4.09,
+    "temporadas": 6,
+    "costo_total_millones": 196.32
+  },
+  {
+    "titulo": "House of Cards 24",
+    "presupuesto_por_episodio": 8.52,
+    "temporadas": 9,
+    "costo_total_millones": 613.4399999999999
+  },
+  {
+    "titulo": "Dark 25",
+    "presupuesto_por_episodio": 2.55,
+    "temporadas": 9,
+    "costo_total_millones": 183.6
+  },
+  {
+    "titulo": "The Witcher 26",
+    "presupuesto_por_episodio": 3.04,
+    "temporadas": 4,
+    "costo_total_millones": 97.28
+  },
+  {
+    "titulo": "Breaking Bad 27",
+    "presupuesto_por_episodio": 6.94,
+    "temporadas": 5,
+    "costo_total_millones": 277.6
+  },
+  {
+    "titulo": "Peaky Blinders 28",
+    "presupuesto_por_episodio": 5.29,
+    "temporadas": 5,
+    "costo_total_millones": 211.6
+  },
+  {
+    "titulo": "Stranger Things 29",
+    "presupuesto_por_episodio": 8.39,
+    "temporadas": 8,
+    "costo_total_millones": 536.96
+  },
+  {
+    "titulo": "Dark 30",
+    "presupuesto_por_episodio": 6.88,
+    "temporadas": 7,
+    "costo_total_millones": 385.28
+  },
+  {
+    "titulo": "The Mandalorian 31",
+    "presupuesto_por_episodio": 3.18,
+    "temporadas": 5,
+    "costo_total_millones": 127.2
+  },
+  {
+    "titulo": "The Office 32",
+    "presupuesto_por_episodio": 5.3,
+    "temporadas": 1,
+    "costo_total_millones": 42.4
+  },
+  {
+    "titulo": "Game of Thrones 33",
+    "presupuesto_por_episodio": 2.65,
+    "temporadas": 8,
+    "costo_total_millones": 169.6
+  },
+  {
+    "titulo": "Game of Thrones 34",
+    "presupuesto_por_episodio": 2.79,
+    "temporadas": 9,
+    "costo_total_millones": 200.88
+  },
+  {
+    "titulo": "Peaky Blinders 35",
+    "presupuesto_por_episodio": 3.97,
+    "temporadas": 7,
+    "costo_total_millones": 222.32000000000002
+  },
+  {
+    "titulo": "Sherlock 36",
+    "presupuesto_por_episodio": 3.26,
+    "temporadas": 7,
+    "costo_total_millones": 182.56
+  },
+  {
+    "titulo": "The Office 37",
+    "presupuesto_por_episodio": 3.99,
+    "temporadas": 2,
+    "costo_total_millones": 63.84
+  },
+  {
+    "titulo": "Friends 38",
+    "presupuesto_por_episodio": 5.2,
+    "temporadas": 1,
+    "costo_total_millones": 41.6
+  },
+  {
+    "titulo": "Dark 39",
+    "presupuesto_por_episodio": 8.79,
+    "temporadas": 1,
+    "costo_total_millones": 70.32
+  },
+  {
+    "titulo": "Peaky Blinders 40",
+    "presupuesto_por_episodio": 6.43,
+    "temporadas": 2,
+    "costo_total_millones": 102.88
+  },
+  {
+    "titulo": "Narcos 41",
+    "presupuesto_por_episodio": 5.0,
+    "temporadas": 9,
+    "costo_total_millones": 360.0
+  },
+  {
+    "titulo": "The Witcher 42",
+    "presupuesto_por_episodio": 8.03,
+    "temporadas": 2,
+    "costo_total_millones": 128.48
+  },
+  {
+    "titulo": "Peaky Blinders 43",
+    "presupuesto_por_episodio": 5.72,
+    "temporadas": 4,
+    "costo_total_millones": 183.04
+  },
+  {
+    "titulo": "Friends 44",
+    "presupuesto_por_episodio": 7.48,
+    "temporadas": 3,
+    "costo_total_millones": 179.52
+  },
+  {
+    "titulo": "The Witcher 45",
+    "presupuesto_por_episodio": 2.26,
+    "temporadas": 9,
+    "costo_total_millones": 162.71999999999997
+  },
+  {
+    "titulo": "Narcos 46",
+    "presupuesto_por_episodio": 8.72,
+    "temporadas": 2,
+    "costo_total_millones": 139.52
+  },
+  {
+    "titulo": "Lost 47",
+    "presupuesto_por_episodio": 1.18,
+    "temporadas": 1,
+    "costo_total_millones": 9.44
+  },
+  {
+    "titulo": "Breaking Bad 48",
+    "presupuesto_por_episodio": 7.53,
+    "temporadas": 4,
+    "costo_total_millones": 240.96
+  },
+  {
+    "titulo": "The Witcher 49",
+    "presupuesto_por_episodio": 4.86,
+    "temporadas": 6,
+    "costo_total_millones": 233.28000000000003
+  },
+  {
+    "titulo": "House of Cards 50",
+    "presupuesto_por_episodio": 3.42,
+    "temporadas": 2,
+    "costo_total_millones": 54.72
+  },
+  {
+    "titulo": "The Mandalorian 1",
+    "presupuesto_por_episodio": 8.95,
+    "temporadas": 3,
+    "costo_total_millones": 214.79999999999998
+  },
+  {
+    "titulo": "The Mandalorian 2",
+    "presupuesto_por_episodio": 8.81,
+    "temporadas": 2,
+    "costo_total_millones": 140.96
+  },
+  {
+    "titulo": "Dark 3",
+    "presupuesto_por_episodio": 3.55,
+    "temporadas": 3,
+    "costo_total_millones": 85.19999999999999
+  },
+  {
+    "titulo": "Breaking Bad 4",
+    "presupuesto_por_episodio": 2.49,
+    "temporadas": 2,
+    "costo_total_millones": 39.84
+  },
+  {
+    "titulo": "The Office 5",
+    "presupuesto_por_episodio": 9.19,
+    "temporadas": 4,
+    "costo_total_millones": 294.08
+  },
+  {
+    "titulo": "House of Cards 6",
+    "presupuesto_por_episodio": 6.01,
+    "temporadas": 2,
+    "costo_total_millones": 96.16
+  },
+  {
+    "titulo": "Stranger Things 7",
+    "presupuesto_por_episodio": 4.29,
+    "temporadas": 4,
+    "costo_total_millones": 137.28
+  },
+  {
+    "titulo": "Narcos 8",
+    "presupuesto_por_episodio": 7.55,
+    "temporadas": 1,
+    "costo_total_millones": 60.4
+  },
+  {
+    "titulo": "Black Mirror 9",
+    "presupuesto_por_episodio": 6.31,
+    "temporadas": 2,
+    "costo_total_millones": 100.96
+  },
+  {
+    "titulo": "The Witcher 10",
+    "presupuesto_por_episodio": 4.0,
+    "temporadas": 5,
+    "costo_total_millones": 160.0
+  }
+]

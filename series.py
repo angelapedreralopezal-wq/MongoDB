@@ -62,7 +62,7 @@ def insert_data():
 
     for i in range(10):
         serie = {
-            "titulo": f"Serie Incompleta {i+1}",
+            "titulo": random.choice(titulos) + f" {i+1}",
             "plataforma": random.choice(plataformas),
             "temporadas": random.randint(1, 5),
             "genero": random.sample(generos, random.randint(1, 2)),
@@ -131,7 +131,7 @@ def transform_BSON_to_JSON(resultados):
         
 def mean_puntuacion():
     pipeline = [
-        { "$match": { "puntuacion": { "$exists": True } } },  # Solo series con puntuacion
+        { "$match": { "puntuacion": { "$exists": True } } },  # Series con puntuacion
         { "$group": {
             "_id": None,
             "promedio": { "$avg": "$puntuacion" }
@@ -206,10 +206,50 @@ def consult_union(coleccion2):
 
     return resultados
 
-#insert_data()
+def cost_financiation():
+    archivo_json="gasto_series.json"
+    pipeline = [
+        {
+            "$lookup": {
+                "from": "series",
+                "localField": "titulo",
+                "foreignField": "titulo",
+                "as": "info_serie"
+            }
+        },
+        { "$unwind": "$info_serie" },
+        {
+            "$project": {
+                "_id": 0,  # Ocultar el _id
+                "titulo": 1,
+                "presupuesto_por_episodio": 1,
+                "temporadas": "$info_serie.temporadas",
+                "costo_total_millones": {
+                    "$multiply": ["$presupuesto_por_episodio", "$info_serie.temporadas", 8]  # 8 episodios por temporada
+                }
+            }
+        }
+    ]
+
+    resultados = list(coleccion2.aggregate(pipeline))
+
+    print("\nCosto total de financiación por serie (en millones):")
+    for serie in resultados:
+        print(f"{serie['titulo']}: ${serie['costo_total_millones']:.2f} millones")
+
+    # Guardar en JSON
+    with open(archivo_json, "w", encoding="utf-8") as f:
+        json.dump(resultados, f, ensure_ascii=False, indent=2)
+
+    print(f"\nSe ha guardado el gasto financiero de las series en '{archivo_json}'")
+
+    return resultados
+
+insert_data()
 resultados = consult_data()
-# transform_BSON_to_JSON(resultados)
-# read_consult(resultados)
+transform_BSON_to_JSON(resultados)
+read_consult(resultados)
 mean_puntuacion()
-#create_new_collection()
+create_new_collection()
 consult_union(coleccion2)
+cost_financiation()

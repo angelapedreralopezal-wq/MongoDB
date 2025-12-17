@@ -1,30 +1,41 @@
 [
   {
-    "_id": "6942ce29cd17120e960b93af",
-    "titulo": "The Witcher 41",
-    "plataforma": "Prime Video",
-    "temporadas": 1,
+    "_id": "6942eaf01306679da7d569ad",
+    "titulo": "Vikings 5",
+    "plataforma": "Disney+",
+    "temporadas": 6,
     "genero": [
-      "Sci-Fi",
-      "Thriller",
       "Comedia"
     ],
-    "puntuacion": 5.9,
-    "finalizada": false,
+    "puntuacion": 5.2,
+    "finalizada": true,
+    "año_estreno": 2023
+  },
+  {
+    "_id": "6942eaf01306679da7d569ba",
+    "titulo": "Narcos 18",
+    "plataforma": "Disney+",
+    "temporadas": 4,
+    "genero": [
+      "Drama",
+      "Comedia"
+    ],
+    "puntuacion": 6.0,
+    "finalizada": true,
     "año_estreno": 2022
   },
   {
-    "_id": "6942ce29cd17120e960b93b2",
-    "titulo": "The Mandalorian 44",
-    "plataforma": "Prime Video",
-    "temporadas": 9,
+    "_id": "6942eaf01306679da7d569c8",
+    "titulo": "The Office 32",
+    "plataforma": "HBO",
+    "temporadas": 1,
     "genero": [
+      "Fantasia",
       "Aventura",
-      "Comedia",
-      "Sci-Fi"
+      "Comedia"
     ],
-    "puntuacion": 8.9,
+    "puntuacion": 5.5,
     "finalizada": false,
-    "año_estreno": 2021
+    "año_estreno": 2022
   }
 ]
